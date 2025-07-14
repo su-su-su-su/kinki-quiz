@@ -21,5 +21,5 @@ rl.question(
     }
 
     rl.close();
-  }
+  },
 );
