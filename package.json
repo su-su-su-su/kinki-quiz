@@ -1,0 +1,31 @@
+{
+  "name": "kinki-quiz",
+  "version": "1.0.0",
+  "description": "A simple quiz package for the prefectural capitals of the Kinki region.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su-su-su-su/kinki-quiz.git"
+  },
+  "keywords": [
+    "quiz",
+    "kinki",
+    "japan"
+  ],
+  "author": "su-su-su-su",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "prettier": "^3.6.2"
+  }
+}
