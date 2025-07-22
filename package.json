@@ -4,6 +4,9 @@
   "description": "A simple quiz package for the prefectural capitals of the Kinki region.",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "kinki-quiz": "./run-quiz.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix": "prettier --write . && eslint --fix .",
