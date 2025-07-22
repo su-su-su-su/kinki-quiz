@@ -24,7 +24,7 @@ const quizzer = {
 
   getCorrectAnswer: function (prefecture) {
     const quizItem = kinkiCapitals.find((item) => item.pref === prefecture);
-    return quizItem ? quizItem.capital : null;
+    return quizItem?.capital;
   },
 };
 
