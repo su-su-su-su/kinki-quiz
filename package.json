@@ -1,6 +1,6 @@
 {
   "name": "kinki-quiz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple quiz package for the prefectural capitals of the Kinki region.",
   "main": "index.js",
   "type": "module",
